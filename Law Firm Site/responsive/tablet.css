@@ -85,7 +85,32 @@
 .content3 > img {
   height: 70%;
 }
-
 /* MAIN CONTENT STYLING END HERE */
 
 /* MAIN CONTAINER STYLINGS START HERE */
+
+  /* CONTACT CONTAINER STYLING START HERE */
+  .contact-container {
+    min-height: 100vh;
+    position: relative;
+    top: 40px;
+  }
+
+  .contactbox { 
+    flex-direction: column;
+    }
+
+    /* CONTACT INFO STYLING START HERE */
+
+.contactinfo {
+  width: 100%;
+  }
+  /* CONTACT INFO STYLING ENDS HERE */
+
+  /* FORM STYLING START HERE */
+form {
+  width: 100%;
+  }
+    /* FORM STYLING ENDS HERE */
+
+  /* CONTACT CONTAINER STYLING ENDS HERE */
