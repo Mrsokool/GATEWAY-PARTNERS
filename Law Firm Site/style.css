@@ -369,6 +369,7 @@ margin: 0 auto;
 .contactbox {
 display: flex;
 justify-content: space-evenly;
+align-items: center;
 position: relative;
 top: 50px;
 left: 20px;
@@ -414,6 +415,8 @@ width: 60%;
 
 .big {
 font-size: 1rem;
+position: relative;
+top: 10px;
 }
 /* CONTACT INFO STYLING ENDS HERE */
 
