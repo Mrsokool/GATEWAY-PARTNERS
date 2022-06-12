@@ -160,7 +160,7 @@ a {
   align-items: center;
   flex-direction: column;
   position: relative;
-  top: 200px;
+  top: 180px;
 }
 
 .text h1 {
@@ -175,6 +175,7 @@ h1 span {
   flex-direction: column;
   text-align: center;
 }
+
 h1 div {
   width: 100%;
   display: flex;
@@ -182,7 +183,6 @@ h1 div {
   flex-direction: column;
   text-align: center;
 }
-
 
 .text p {
   position: relative;
@@ -217,7 +217,7 @@ h1 div {
 /* CONTENT BOX STYLING START HERE */
 .maincontainer {
   width: 100%;
-  height: 120vh;
+  height: 100vh;
 }
 
 .submain {
@@ -343,4 +343,154 @@ h2 {
 }
 /* MAIN CONTENT STYLING END HERE */
 
-/* MAIN CONTAINER STYLINGS START HERE */
+/* MAIN CONTAINER STYLINGS ENDS HERE */
+
+
+/* CONTACT CONTAINER STYLING START HERE */
+.contact-container {
+  background: url(images/bg4.jpg) 100% 0 fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+.contactbg {
+background-color: white;
+width: 80%;
+height: 80vh;
+margin: 0 auto;
+}
+
+.contactbox {
+display: flex;
+justify-content: space-evenly;
+position: relative;
+top: 50px;
+left: 20px;
+right: 20px;
+}
+
+/* CONTACT INFO STYLING START HERE */
+
+.contactinfo {
+width: 50%;
+margin-left: 20px;
+}
+
+.bold {
+font-size: 1rem;
+font-weight: 700;
+color: black;
+position: relative;
+bottom: -15px;
+}
+
+.small-icon {
+width: 13px;
+}
+
+.small-icon1 {
+  width: 15px;
+}
+
+.small-icon2 {
+  width: 10px;
+}
+
+h2 {
+font-size: 2.2rem;
+font-weight: 700;
+color: black;
+}
+
+.contactinfo p {
+width: 60%;
+}
+
+.big {
+font-size: 1rem;
+}
+/* CONTACT INFO STYLING ENDS HERE */
+
+/* FORM STYLING START HERE */
+form {
+width: 50%;
+padding: 40px 0px;
+}
+
+input[type="text"],
+input[type="email"] {
+padding: 12px 20px;
+width: 90%;
+height: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.85rem;
+position: relative;
+bottom: 10px;
+border-radius: 5px;
+border: 3px solid #e4e4e4;
+float: right;
+
+}
+
+textarea {
+padding: 12px 20px;
+width: 90%;
+height: 150px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.85rem;
+position: relative;
+bottom: 10px;
+border: none;
+border-radius: 5px;
+border: 3px solid #e4e4e4;
+float: right;
+}
+
+button {
+background-color: #ff974f;
+padding: 20px 40px;
+font-size: 1.4rem;
+color: white;
+border: 0;
+border-radius: 5px;
+float: right;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+  position: relative;
+  right: 50px;
+}
+
+/* FONT AWESOME ICON STYLING STARTS HERE */
+.icon {
+width: 90%;
+height: 20px;
+display: flex;
+justify-content: end;
+}
+
+.icon img {
+width: 15px;
+height: 20px;
+margin-left: 40px;
+}
+
+.formbox {
+  position: relative;
+  top: 50px;
+}
+
+/* FONT AWESOME ICON STYLING ENDS HERE */
+
+/* FORM STYLING ENDS HERE */
+
+/* CONTACT CONTAINER STYLING ENDS HERE */
