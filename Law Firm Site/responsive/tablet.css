@@ -1,0 +1,27 @@
+/*  HEADER CONTAINER STYLING STARTS HERE */
+/* .headercontainer {
+    height: 120vh;
+  } */
+  /*  HEADER CONTAINER STYLING ENDS HERE */
+ 
+ /* NAVIGATION BAR STYLING STARTS HERE */
+ .logo {
+    width: 60%;
+  }
+
+ .logo > img {
+    width: 110%;
+  }
+  
+  /* ARTICLE STYLING STARTS HERE */
+  .text {
+    width: 90%;
+  }
+
+  .text h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  /* ARTICLE STYLING ENDS HERE */
+
+  /* NAVIGATION BAR STYLING ENDS HERE */

@@ -1,0 +1,10 @@
+/* NAVIGATION BAR STYLING STARTS HERE */
+.logo {
+    width: 60%;
+  }
+
+  .logo > img {
+    width: 110%;
+  }
+  
+  /* NAVIGATION BAR STYLING ENDS HERE */
