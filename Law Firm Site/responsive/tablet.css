@@ -1,7 +1,5 @@
 /*  HEADER CONTAINER STYLING STARTS HERE */
-/* .headercontainer {
-    height: 120vh;
-  } */
+
   /*  HEADER CONTAINER STYLING ENDS HERE */
  
  /* NAVIGATION BAR STYLING STARTS HERE */
@@ -25,3 +23,69 @@
   /* ARTICLE STYLING ENDS HERE */
 
   /* NAVIGATION BAR STYLING ENDS HERE */
+
+/* MAIN CONTAINER STYLINGS START HERE */
+/* .maincontainer {
+  height: 120vh;
+} */
+/* CONTENT BOX STYLING START HERE */
+.submain {
+  width: 100%;
+  top: 0;
+}
+
+.contentbox {
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  height: inherit;
+}
+
+.top {
+  position: relative;
+  top: 20px;
+}
+
+.up {
+  top: 40px;
+}
+/* CONTENT BOX STYLING END HERE */
+
+/* MAIN CONTENT STYLING START HERE */
+.maincontent {
+  flex-direction: column;
+}
+
+.content1 {
+  width: 100%;
+  bottom: 0;
+  height: inherit;
+}
+
+.content2 {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  bottom: 60px;
+}
+
+.content2 > img {
+  height: 70%;
+}
+
+.content3 {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 40px;
+}
+
+.content3 > img {
+  height: 70%;
+}
+
+/* MAIN CONTENT STYLING END HERE */
+
+/* MAIN CONTAINER STYLINGS START HERE */

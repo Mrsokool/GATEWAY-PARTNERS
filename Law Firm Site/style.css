@@ -12,8 +12,6 @@ body {
   z-index: -1;
 }
 
-
-
 /*  HEADER CONTAINER STYLING STARTS HERE */
 .headercontainer {
   background: url(images/bg.jpg) 100% 0 fixed;
@@ -47,6 +45,10 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
+}
+
+.sticker1 > p {
+  width: 100%;
 }
 
 .sticker1 > img {
@@ -220,7 +222,6 @@ h1 div {
 
 .submain {
   width: 80%;
-  height: inherit;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -234,41 +235,38 @@ h1 div {
 
 .contentbox {
   width: 100%;
-  height: inherit;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.contentbox1 {
-  width: 100%;
-  height: inherit;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
 .content {
   width: 32%;
-  height: 400px;
+  height: 300px;
 }
 
 .content img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /* CONTENT BOX STYLING END HERE */
 
 /* MAIN CONTENT STYLING START HERE */
 .maincontent {
   width: 100%;
+  height: inherit;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   text-align: left;
+  position: relative;
+  top: 40px;
 }
 
 .content1 {
   width: 47%;
+  height: 1000px;
 }
 
 .content1 .welcome {
@@ -296,6 +294,13 @@ h1 div {
 
 .content2 {
   width: 25%;
+  height: 200px;
+}
+
+.content2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .content2 h2 {
@@ -304,17 +309,15 @@ h1 div {
 
 .content3 {
   width: 25%;
+  height: 200px;
   position: relative;
-  top: -20px;
-}
 
-.content2 img {
-  width: 100%;
 }
 
 .content3 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 hr {
