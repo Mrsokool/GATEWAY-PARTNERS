@@ -91,26 +91,51 @@
 
   /* CONTACT CONTAINER STYLING START HERE */
   .contact-container {
-    min-height: 100vh;
     position: relative;
-    top: 40px;
+    top: 2050px;
+    align-items: baseline;
   }
+
+  .contactbg {
+    margin: 0 auto;
+    }
 
   .contactbox { 
     flex-direction: column;
+    top: 100px;
     }
 
     /* CONTACT INFO STYLING START HERE */
-
-.contactinfo {
-  width: 100%;
-  }
+  .contactinfo {
+    width: 100%;
+    /* bottom: 20px; */
+    }
   /* CONTACT INFO STYLING ENDS HERE */
 
   /* FORM STYLING START HERE */
 form {
-  width: 100%;
+  width: 90%;
+  position: relative;
+  top: 100px;
+  display: none;
   }
     /* FORM STYLING ENDS HERE */
 
   /* CONTACT CONTAINER STYLING ENDS HERE */
+
+  /* .stickercontainer,
+  .navcontainer,
+  .links {
+    display: none
+  } */
+
+  /* .maincontainer{
+    background-color: red;
+  } */
+
+  /* .text{
+    display: none;
+  } */
+  /* .submain {
+    display: none;
+  } */
