@@ -92,12 +92,15 @@
   /* CONTACT CONTAINER STYLING START HERE */
   .contact-container {
     position: relative;
-    top: 2050px;
+    top: 2350px;
     align-items: baseline;
+    height: 170vh;
   }
 
   .contactbg {
-    margin: 0 auto;
+    height: 150vh;
+    position: relative;
+    top: 50px;
     }
 
   .contactbox { 
@@ -108,6 +111,7 @@
     /* CONTACT INFO STYLING START HERE */
   .contactinfo {
     width: 100%;
+    top: -10vh;
     /* bottom: 20px; */
     }
   /* CONTACT INFO STYLING ENDS HERE */
@@ -116,8 +120,12 @@
 form {
   width: 90%;
   position: relative;
-  top: 100px;
-  display: none;
+  top: -25vh;
+  /* display: none; */
+  }
+
+  .icon {
+    display: none;
   }
     /* FORM STYLING ENDS HERE */
 
@@ -138,4 +146,5 @@ form {
   } */
   /* .submain {
     display: none;
+    background-color: green;
   } */
